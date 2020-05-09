@@ -10,4 +10,8 @@ class UserMailer < ApplicationMailer
     to:   user.email,
   )
   end
+
+  def notify_user
+    mail(bcc: User.pluck(:email), subject:"everyday Bookers!yay!")
+  end
 end

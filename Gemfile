@@ -77,3 +77,6 @@ gem 'simple_form'
 
 # 環境変数用
 gem 'dotenv-rails'
+
+# 定期メール用
+gem 'whenever', require: false
