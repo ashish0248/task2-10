@@ -16,3 +16,4 @@ find . -type f | xargs sed -i 's/opinion/body/g'
 
 一回テストを試していると、テスト用のデータベースtest.sqlite3ができているため、カラム名を変更したのちに再びやる時は
 rm db/test.sqlite3によって、ファイルを削除してから実行する
+<img width="1622" alt="image" src="https://user-images.githubusercontent.com/61741711/85595949-4521c200-b684-11ea-8016-9afa41e70b2a.png">
